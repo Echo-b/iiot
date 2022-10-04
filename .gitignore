@@ -1,0 +1,44 @@
+IotBackend/target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+IotBackend/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+IotBackend/
+.idea
+*.iws
+*.iml
+*.ipr
+
+### iot-sub ###
+IotBackend/
+iot_sub*
+
+
+IotFronted/
+.DS_Store
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+tests/**/coverage/
+
+# Editor directories and files
+IotFronted/
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
